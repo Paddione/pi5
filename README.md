@@ -1,3 +1,4 @@
+python3 -c 'import crypt; print(crypt.crypt("your_password", crypt.mksalt(crypt.METHOD_SHA512)))'
 # Create necessary directories
 sudo mkdir -p /srv/containers/pihole-pxe/tftpboot/{grub,ubuntu}
 sudo mkdir -p /srv/containers/pihole-pxe/tftpboot/pxelinux.cfg
